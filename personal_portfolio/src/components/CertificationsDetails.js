@@ -52,7 +52,7 @@ const CertificationsDetails = () => {
             ></img>
             <Typography variant="h5" color="white">
               {" "}
-              {t("certif-complete")} {t(certif.label)}
+              {t("certif-complete")} <span className="certif-label">{t(certif.label)}</span>
             </Typography>
             <Button
               variant="contained"

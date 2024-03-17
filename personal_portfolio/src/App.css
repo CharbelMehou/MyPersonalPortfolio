@@ -107,7 +107,10 @@ body {
     padding: 20px ;
     border-radius:10px; 
 }
-
+.certif-label{
+  color: yellow;
+  font-weight: bold;
+}
 .MuiButton-root.button-tag{
     background-color: yellow;
     color: black;
