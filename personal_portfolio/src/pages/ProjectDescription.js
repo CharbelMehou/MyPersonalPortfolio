@@ -22,6 +22,8 @@ import projetJava1Screen3 from "../assets/images/projetJava1Screen3.png";
 import projetS8Repartition from "../assets/images/projetS8Repartition.png";
 import projetS8Acceuil from "../assets/images/projetS8Acceuil.png";
 import projetS8Classement from "../assets/images/projetS8Classement.png";
+import projetS8DataVisualisation from "../assets/images/projetS8DataVisualisation.png";
+
 
 import { useTranslation } from "react-i18next";
 
@@ -55,8 +57,10 @@ const ProjectDescription = () => {
   ];
   const ProjetS8Tab = [
     { src: projetS8Acceuil, alt: "projetS8Acceuil" },
+    { src: projetS8DataVisualisation, alt: "projetS8DataVisualisation" },
     { src: projetS8Repartition, alt: "projetS8Repartition" },
     { src: projetS8Classement, alt: "projetS8Classement" },
+
   ];
   return (
     <Box
