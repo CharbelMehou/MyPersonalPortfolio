@@ -26,7 +26,7 @@ const ProjectCard = ({
   return (
     <Box
       className="projectCard"
-      sx={{ display: "flex", flexDirection: "column" ,width:{xs:"auto",lg:"470px"}}}
+      sx={{ display: "flex", flexDirection: "column" ,width:{xs:"300px",lg:"470px"}}}
     >
       <Box sx={{ mb: 1 }}>
         <Typography style={{ color: "white", fontWeight: "bold" }}>
@@ -77,8 +77,7 @@ const ProjectCard = ({
                 height: { xs: "auto", lg: "100%" },
               }}
             >
-              {t("visit-here")}
-              <LaunchIcon />
+              {t("not-deployed")}            
             </Button>
           </>
         )}
