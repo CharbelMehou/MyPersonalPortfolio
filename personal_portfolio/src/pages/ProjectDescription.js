@@ -18,6 +18,11 @@ import project2Screen4 from "../assets/images/project2Screen4.png";
 import projetJava1Screen1 from "../assets/images/projetJava1Screen1.png";
 import projetJava1Screen2 from "../assets/images/projetJava1Screen2.png";
 import projetJava1Screen3 from "../assets/images/projetJava1Screen3.png";
+
+import projetS8Repartition from "../assets/images/projetS8Repartition.png";
+import projetS8Acceuil from "../assets/images/projetS8Acceuil.png";
+import projetS8Classement from "../assets/images/projetS8Classement.png";
+
 import { useTranslation } from "react-i18next";
 
 const ProjectDescription = () => {
@@ -48,7 +53,11 @@ const ProjectDescription = () => {
     { src: projetJava1Screen2, alt: "ProjectJava1Screen2" },
     { src: projetJava1Screen3, alt: "ProjectJava1Screen3" },
   ];
-
+  const ProjetS8Tab = [
+    { src: projetS8Acceuil, alt: "projetS8Acceuil" },
+    { src: projetS8Repartition, alt: "projetS8Repartition" },
+    { src: projetS8Classement, alt: "projetS8Classement" },
+  ];
   return (
     <Box
       sx={{
@@ -130,6 +139,50 @@ const ProjectDescription = () => {
                 justifyContent: "flex-start",
               }}
             >
+              <ProjectCarousel projectScreenTab={ProjetS8Tab} />
+            </Box>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "flex-end",
+              }}
+            >
+              <ProjectDescriptionSpeech
+                title={"club-sport"}
+                vercelLink={""}
+                vercelLinkdisplayed={false}
+                githubLink={
+                  "https://github.com/CharbelMehou/ClubSportLeger"
+                }
+                githubLinkdisplayed={true}
+                descriptions={[{ label: "club-sport-speech" }]}
+                tags={[
+                  { label: "#JAVA JEE" },
+                  { label: "#Javascript" },
+                  { label: "#HTML" },
+                  { label: "#CSS" },
+                ]}
+              />
+            </Box>
+          </Box>
+        )}
+        {id === "3" && (
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              flexWrap: { xs: "wrap", lg: "nowrap" },
+            }}
+          >
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "flex-start",
+              }}
+            >
               <ProjectCarousel projectScreenTab={Projet2ScreenTab} />
             </Box>
             <Box
@@ -159,7 +212,7 @@ const ProjectDescription = () => {
             </Box>
           </Box>
         )}
-        {id === "3" && (
+        {id === "4" && (
           <Box
             sx={{
               display: "flex",
@@ -202,6 +255,7 @@ const ProjectDescription = () => {
             </Box>
           </Box>
         )}
+        
       </Box>
     </Box>
   );

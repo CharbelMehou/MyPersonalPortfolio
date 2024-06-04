@@ -26,7 +26,7 @@ const ProjectCard = ({
   return (
     <Box
       className="projectCard"
-      sx={{ display: "flex", flexDirection: "column" }}
+      sx={{ display: "flex", flexDirection: "column" ,width:{xs:"auto",lg:"470px"}}}
     >
       <Box sx={{ mb: 1 }}>
         <Typography style={{ color: "white", fontWeight: "bold" }}>

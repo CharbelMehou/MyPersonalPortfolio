@@ -121,13 +121,14 @@ body {
     background-color: yellow;
     color: black;
 }
-.projectCard{
-    border-radius: 20px;
-    padding:30px;
-    width: auto;
-    background-color: #0b1f43;
-    transition:  0.3s ease-in-out
+.projectCard {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #0b1f43;
+  transition: 0.3s ease-in-out;
 }
+
+
 .white-link {
   color: white;
   font-weight: bold;

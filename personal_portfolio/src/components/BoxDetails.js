@@ -18,12 +18,11 @@ const BoxDetails = ({ id, title, children }) => {
         className="bg-slate-900 bg-opacity-70 title-box section-box"
         sx={{
           display: "flex",
-          flexDirection: "row",
+          flexDirection: "column",
           alignItems: "center",
           p: 2,borderRadius:'10px',
           mx: "12px",
           gap: 2,
-          flexWrap: { xs: "wrap", lg: "nowrap" },
         }}
       >
         {children}

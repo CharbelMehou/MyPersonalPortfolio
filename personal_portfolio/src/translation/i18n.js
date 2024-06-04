@@ -53,7 +53,10 @@ const resources = {
       "technology":'Technology',
       "infrastructures-sportives-speech": "This web app is a project that maps sporting structures across France through an interactive chart. Users can search for a specific facility and get its location as well as the associated town hall's location. Detailed information about the town halls is also provided.",
       'infrastructur-sportive-p1':"Website mapping French sports infrastructures with information from associated town halls",
-
+      "club-sport-d1": "A web application designed to optimize access to data from sports federations and clubs in France",
+      "club-sport": "Project: SportClubs",
+      "club-sport-speech": "This is a web application aimed at simplifying access to data from sports federations and clubs in France. With it, users can access not only the data of the concerned federation/club but also charts representing gender distribution statistics within the club. It is also possible to obtain, through a histogram, the distribution of licensees by age groups ranging from 1 to 90 years old."
+    
     }
   },
   fr: {
@@ -105,8 +108,10 @@ const resources = {
       "visit-here":"Visiter le site",
       "back":"Retour",
       "technology":'Technologies',
-      "infrastructures-sportives-speech": "C'est une application web qui permet de localiser les structures sportives en France via une carte interactive. Les utilisateurs peuvent rechercher une infrastructure spécifique et obtenir sa localisation ainsi que celle de la mairie associée. Des informations détaillées sur les mairies sont également disponibles."
-
+      "infrastructures-sportives-speech": "C'est une application web qui permet de localiser les structures sportives en France via une carte interactive. Les utilisateurs peuvent rechercher une infrastructure spécifique et obtenir sa localisation ainsi que celle de la mairie associée. Des informations détaillées sur les mairies sont également disponibles.",
+      "club-sport-d1": "Une application web visant à optimiser l'accès aux données des fédérations et clubs sportifs de France",
+      "club-sport": "Projet : SportClubs",
+      "club-sport-speech": "C'est une application web qui vise à simplifier l'accès aux données des fédérations et clubs sportifs en France. Grâce à elle, un utilisateur est capable d'avoir accès non seulement aux données de la fédération/club concerné(e) mais aussi à des graphiques représentant les statistiques de répartition homme-femme dans le club. Il est aussi possible d'obtenir, via un histogramme, la répartition des licenciés suivant des tranches d'âges allant de 1 à 90 ans."
     }
       
   }
