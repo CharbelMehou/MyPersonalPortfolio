@@ -73,7 +73,7 @@ const ProjectDescriptionSpeech = ({
                 height: "auto",
               }}
             >
-              {t("view-here")}
+              {t("not-deployed")}
               <LaunchIcon />
             </Button>
           </>
