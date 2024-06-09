@@ -158,9 +158,9 @@ body {
     height: auto;
   }
   
-  @media (min-width: 992px) { 
+  @media (min-width: 892px) { 
     .screen-project-image  {
-      width: 400px;
+      width: 350px;
       height: 200px;
     }
     .certifCard-img {

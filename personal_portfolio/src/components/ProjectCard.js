@@ -26,7 +26,7 @@ const ProjectCard = ({
   return (
     <Box
       className="projectCard"
-      sx={{ display: "flex", flexDirection: "column" ,width:{xs:"300px",lg:"470px"}}}
+      sx={{ display: "flex", flexDirection: "column" ,width:{xs:"300px",lg:"400px"}}}
     >
       <Box sx={{ mb: 1 }}>
         <Typography style={{ color: "white", fontWeight: "bold" }}>
@@ -35,7 +35,7 @@ const ProjectCard = ({
       </Box>
 
       <Box sx={{ display: "flex" }}>
-        <img className="screen-project-image" src={screen} alt="image" />
+        <img className="screen-project-image" src={screen} alt="image"/>
       </Box>
 
       <Box sx={{ display: "flex", flexDirection: "column", gap: 1, p: 1 }}>

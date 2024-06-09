@@ -60,7 +60,7 @@ const AboutMe = () => {
             </Typography>
             <Typography variant="h5">
             {t("me-3-1")}
-            <span style={{ color: "#416DD1" }}> Java </span>,
+            {/* <span style={{ color: "#416DD1" }}> Java </span>, */}
               <span style={{ color: "#416DD1" }}> React </span> {t('and')}
               <span style={{ color: "#416DD1" }}> C# .Net </span>
             </Typography>

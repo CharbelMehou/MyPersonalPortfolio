@@ -12,7 +12,7 @@ const certifstab = [
   { logo: AWSCertif, label: "AWS Cloud Computing", link: 'https://www.credly.com/badges/916ba122-806f-423e-a245-df3edcfc65de/public_url' },
   { logo: MicrosoftCsharpCertif, label: "C#", link: 'https://urlz.fr/pUEw' },
   { logo: ReactCertif, label: "React.js", link: 'https://urlz.fr/nC41' },
-  { logo: Csharp, label: "C#", link: 'https://urlz.fr/nC3v' },
+  // { logo: Csharp, label: "C#", link: 'https://urlz.fr/nC3v' },
 ];
 
 const CertificationsDetails = () => {
